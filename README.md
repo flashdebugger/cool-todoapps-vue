@@ -49,3 +49,9 @@ We all love Vue's very clean, consistent `data`, `methods`, `computed` structure
 Mixins are helpful, no doubt - but they're dumb helpers. Hooks allow us to use smarter imports with explicit logic origin. If you have a file with several mixins, the origin of the data/methods/computed etc that are you now have access to is not immediately obvious. Hooks have us import what we need to use from them, and so we can clearly track our data's origin.
 
 Hooks can also communicate with each other, something that mixins couldn't do.
+
+<br /><br />
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/62004b38-9301-419d-b28f-c5bbc5bd26d0/deploy-status)](https://app.netlify.com/sites/todoapps-vue3/deploys)
+
+[Demo](https://todoapps-vue3.netlify.app/todo)
